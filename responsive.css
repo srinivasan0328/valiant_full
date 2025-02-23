@@ -1,0 +1,520 @@
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+/* @media (width <=576px) */
+@media (max-width: 576px) {
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .topBody {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0.75rem 10.8rem;
+    row-gap: 1rem;
+  }
+
+  .navContactBlock {
+    /* background-color: var(--primaryColor); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navEmailBlock {
+    /* background-color: var(--primaryColor); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navBody {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0.7rem 1.5rem;
+  }
+
+  .logoBlock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .logoBox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .navLinkBox {
+    /* background-color: #deb887; */
+    display: none;
+  }
+
+  .logoBox img {
+    /* background-color: #a52a2a; */
+    height: 4.2rem;
+  }
+
+  .heroBody {
+    /* background-color: #00ffff; */
+    padding: 13rem 2rem;
+  }
+
+  .heroBlock {
+    /* background-color: #ffe4c4; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heroBox {
+    /* background-color: #10dab2; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .heroBox h1 {
+    /* background-color: #7fff00; */
+    font-size: 4.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .heroBox p {
+    /* background-color: #7fff00; */
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.7;
+  }
+
+  .heroBox button {
+    /* background-color: #769b52; */
+    padding: 2rem 4.5rem;
+  }
+
+  .aboutUsBody {
+    /* background-color: #b384b3; */
+    padding: 2rem;
+  }
+
+  .service1Body {
+    /* background-color: #b384b3; */
+    padding: 0rem;
+  }
+
+  .service2Body {
+    /* background-color: #b384b3; */
+    padding: 0rem;
+  }
+
+  .service3Body {
+    /* background-color: #b384b3; */
+    padding: 0rem;
+  }
+
+  .serviceCardBody1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0rem;
+    align-items: center;
+  }
+
+  /* .serviceCardBody2{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  } */
+
+  .serviceCardBlock{
+    /* background-color: #8e8e55; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .service1Block {
+    /* background-color: #8e8e55; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* step6: subColumn2 */
+  .service1Box {
+    /* background-color: #508250; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .service1ImageBlock {
+    /* background-color: #8a2be2; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .service1ImageBox {
+    /* background-color: #cac232;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .service1ImageBox {
+    /* background-color: #cac232;  */
+    padding: 2rem;
+  }
+
+  .serviceCardBody2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0rem;
+  }
+
+  .serviceCardBody3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0rem;
+  }
+
+  .practiseBody {
+    /* background-color: #b384b3; */
+    padding: 2rem;
+  }
+
+  .reviewBody {
+    /* background-color: #b384b3; */
+    padding: 2rem;
+  }
+
+  .blk2, .blk3{
+    margin-top: 0;
+  }
+
+  .footerBody {
+    /* background-color: #4e4a4e; */
+    padding: 6rem 2rem;
+    gap: 3rem;
+  }
+}
+
+/* Medium devices (tablets, upto 768px and above) */
+/* @media (min-width: 577px) and (max-width: 768px) */
+@media (width >=577px) and (width <=768px) {
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .topBody {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0.5rem 10.8rem;
+    row-gap: 1rem;
+  }
+
+  .navContactBlock {
+    /* background-color: var(--primaryColor); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navEmailBlock {
+    /* background-color: var(--primaryColor); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navBody {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0.7rem 8rem;
+  }
+
+  .logoBlock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .logoBox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .navLinkBox {
+    /* background-color: #deb887; */
+    display: none;
+  }
+
+  .logoBox img {
+    /* background-color: #a52a2a; */
+    height: 4.2rem;
+  }
+
+  .heroBody {
+    /* background-color: #00ffff; */
+    padding: 13rem 2rem;
+  }
+
+  .heroBlock {
+    /* background-color: #ffe4c4; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heroBox {
+    /* background-color: #10dab2; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .heroBox h1 {
+    /* background-color: #7fff00; */
+    font-size: 4.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .heroBox p {
+    /* background-color: #7fff00; */
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.7;
+  }
+
+  .heroBox button {
+    /* background-color: #769b52; */
+    padding: 2rem 4.5rem;
+  }
+
+  .aboutUsBody {
+    /* background-color: #b384b3; */
+    padding: 2rem 8rem;
+  }
+
+  .service1Body {
+    /* background-color: #b384b3; */
+    padding: 2rem 6rem;
+  }
+
+  .service2Body {
+    /* background-color: #b384b3; */
+    padding: 2rem 6rem;
+    margin-bottom: 2rem;
+  }
+
+  .service3Body {
+    /* background-color: #b384b3; */
+    padding: 2rem 6rem;
+  }
+
+  .serviceCardBody1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .serviceCardBody2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .serviceCardBody3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .practiseBody {
+    /* background-color: #b384b3; */
+    padding: 2rem 17rem;
+  }
+
+  .reviewBody {
+    /* background-color: #b384b3; */
+    padding: 2rem 8rem;
+  }
+  .blk2, .blk3{
+    margin-top: 0;
+  }
+
+  .footerBody {
+    /* background-color: #4e4a4e; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 6rem 8rem;
+  }
+}
+
+/* Large devices (Laptops, upto 992px and above) */
+/* @media (min-width: 769px) and (max-width: 992px) */
+@media (width >=769px) and (width <=992px) {
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .navBody {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0.7rem 6rem;
+  }
+
+  .navLinkBox {
+    /* background-color: #deb887; */
+    display: none;
+  }
+
+  .logoBox img {
+    /* background-color: #a52a2a; */
+    height: 3rem;
+  }
+  .heroBody{
+    padding: 10rem 2rem;
+  }
+
+  .heroBlock {
+    /* background-color: #ffe4c4; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heroBox {
+    /* background-color: #10dab2; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .heroBox h1 {
+    /* background-color: #7fff00; */
+    font-size: 5.2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .heroBox p {
+    /* background-color: #7fff00; */
+    width: 100%;
+    text-wrap: nowrap;
+    text-align: center;
+  }
+
+  .aboutUsBody {
+    /* background-color: #b384b3; */
+    padding: 2rem 8rem;
+  }
+
+  .service1Body {
+    /* background-color: #b384b3; */
+    padding: 2rem 6rem;
+  }
+
+  .service2Body {
+    /* background-color: #b384b3; */
+    padding: 2rem 6rem;
+    margin-bottom: 2rem;
+  }
+
+  .service3Body {
+    /* background-color: #b384b3; */
+    padding: 2rem 6rem;
+  }
+
+  .serviceCardBody1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .serviceCardBody2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .serviceCardBody3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .practiseBody {
+    /* background-color: #b384b3; */
+    padding: 2rem 17rem;
+  }
+
+  .reviewBody {
+    /* background-color: #b384b3; */
+    padding: 2rem 8rem;
+  }
+  .blk2, .blk3{
+    margin-top: 0;
+  }
+
+  .footerBody {
+    /* background-color: #4e4a4e; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 6rem 8rem;
+  }
+}
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+/* @media (min-width: 993px) and (max-width: 1200px) */
+@media (width >=993px) and (width <=1200px) {
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .serviceCardBody1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .serviceCardBody2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .serviceCardBody3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* XX-Large devices (larger desktops, upto 1400px and above) */
+/* @media (min-width: 1200px)  */
+@media (width >=1200px) {
+  /* write code here */
+}

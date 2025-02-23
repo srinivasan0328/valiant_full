@@ -1,0 +1,1048 @@
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+/* step2: component */
+/* step3: componentContainer */
+/* step4: row */
+/* step5: column */
+/* step6: subColumn */
+/* step7: contentContainer */
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.navBarSection {
+  /* background-color: #60a2a2; */
+  padding-top: 0.1rem;
+  box-shadow:rgba(25, 25, 25, 0.1) 0px 10px 15px 0px;
+}
+
+/* step3: componentContainer */
+.navBarContainer {
+  /* background-color: #6666ab; */
+}
+
+/* step4: row */
+.topBody {
+  background-color: var(--greenColor);
+  padding: 0.75rem 10.8rem;
+}
+
+/* step5: column 1 */
+.navContactBlock {
+  /* background-color: var(--primaryColor); */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* step6: subColumn 1 */
+.navContactBox {
+  /* background-color: #b8860b; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* step7: contentContainer */
+.topBody i {
+  /* background-color: #a52a2a; */
+  color: var(--whiteColor);
+}
+.navI{
+  padding-right: 0.8rem;
+}
+
+/* step5: column 1 */
+.navEmailBlock {
+  /* background-color: var(--primaryColor); */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* step6: subColumn 1 */
+.navEmailBox {
+  /* background-color: #b8860b; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* step7: contentContainer */
+.topBody p {
+  /* background-color: #a52a2a; */
+  color: var(--whiteColor);
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+/* step4: row */
+.navBody {
+  background-color: var(--whiteColor);
+  padding: 1.8rem 8.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+}
+
+/* step5: column 1 */
+.logoBlock {
+  /* background-color: var(--primaryColor); */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* step6: subColumn 1 */
+.logoBox {
+  /* background-color: #b8860b; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* step7: contentContainer */
+.logoBox img {
+  /* background-color: #a52a2a; */
+  height: 7.2rem;
+}
+
+/* step5: column 2 */
+.navLinkBlock {
+  /* background-color: var(--secondaryColor); */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* step6: subColumn 2 */
+.navLinkBox {
+  /* background-color: #deb887; */
+  width: 100%;
+  justify-content: space-around;
+}
+
+/* step7: contentContainer */
+.navLinkBox li {
+  /* background-color: #9acd32; */
+  /* padding-left: 1rem; */
+  list-style: none;
+  margin-left: 2rem;
+}
+
+.navLinkBox a {
+  /* background-color: #d2691e; */
+  font-size: 1.8rem;
+  color: var(--lightColor);
+  font-weight: 700;
+}
+
+.navLinkBox a:hover:hover {
+  color: var(--secondaryColor);
+}
+
+.navLinkBox i:hover {
+  color: var(--secondaryColor);
+}
+
+.navLinkBox i {
+  /* background-color: #deb887; */
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+  color: var(--primaryColor);
+}
+
+/* hero */
+
+/* step2: component */
+.heroSection {
+  /* background-color: #40e0d0; */
+  height: 100vh;
+  width: 100%;
+  background-color: #e4d9ea;
+}
+
+/* step3: componentContainer */
+.heroContainer {
+  /* background-color: #ff6347; */
+}
+
+/* step4: row */
+.heroBody {
+  /* background-color: #00ffff; */
+  padding: 10.5rem 8.5rem;
+}
+
+/* step5: column */
+.heroBlock {
+  /* background-color: #ffe4c4; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* step6: subColumn */
+.heroBox {
+  /* background-color: #10dab2; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* step7: contentContainer */
+.heroBox h1 {
+  /* background-color: #7fff00; */
+  font-size: 6.2rem;
+  color: var(--secondaryColor);
+  margin-bottom: 3rem;
+}
+
+.heroBox p {
+  /* background-color: #344425; */
+  color: var(--heroParaColor);
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+  text-wrap: wrap;
+  text-transform: capitalize;
+}
+
+.heroBox button {
+  /* background-color: #769b52; */
+  padding: 1.5rem 2.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--whiteColor);
+  background-color: #689f38;
+  border: none;
+  border-radius: 18px;
+}
+
+.heroBox button:hover {
+  background: var(--secondaryColor);
+  transition: all 0.5s ease-in-out;
+}
+
+/* about */
+
+/* step2: component */
+.aboutUsSection {
+  background-color: #ffffff;
+  padding: 7rem 0rem;
+}
+
+/* step3: componentContainer */
+.aboutContainer {
+  /* background-color: #3f3f81; */
+}
+
+/* step4: row */
+.aboutUsBody {
+  /* background-color: #b384b3; */
+  padding: 2rem 4rem;
+  gap: 2.5rem;
+}
+
+/* step5: column1 */
+.aboutUsImageBlock {
+  /* background-color: #8a2be2; */
+}
+
+/* step6: subColumn1 */
+.aboutUsImageBox {
+  /* background-color: #e1dc87;  */
+}
+
+/* step7: contentContainer */
+.aboutUsImageBox img {
+  /* background-color: #a55959; */
+  border-radius: 10px;
+}
+
+/* step5: column2 */
+.aboutUsBlock {
+  /* background-color: #8e8e55; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* step6: subColumn2 */
+.abutUsBox {
+  /* background-color: #508250; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* step7: contentContainer */
+.abutUsBox h4 {
+  /* background-color: #e56464; */
+  font-size: 2rem;
+  color: var(--secondaryColor);
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.abutUsBox h2 {
+  /* background-color: #e56464; */
+  font-size: 3.6rem;
+  color: var(--secondaryColor);
+  margin-bottom: 3rem;
+  line-height: 1.2;
+}
+
+.abth2 {
+  color: var(--tertiaryColor);
+}
+
+.abutUsBox p {
+  /* background-color: #e56464; */
+  font-size: 1.6rem;
+  color: var(--primaryColor);
+  margin-bottom: 2rem;
+  text-wrap: wrap;
+  line-height: 1.6;
+}
+
+.abutUsBox button {
+  /* background-color: #ee82ee; */
+  padding: 1.5rem 2.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--whiteColor);
+  background-color:#689F38;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.abutUsBox button:hover {
+  background: var(--secondaryColor);
+  transition: all 0.5s ease-in-out;
+}
+
+/* service1 */
+
+/* step2: component */
+.service1Section {
+  background-color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+/* step3: componentContainer */
+.service1Container {
+  /* background-color: #3f3f81; */
+}
+
+/* step4: row */
+.service1Body {
+  /* background-color: #b384b3; */
+  padding: 2rem 5rem 2rem 2rem;
+  /* gap: 2.5rem; */
+}
+
+/* step5: column1 */
+.service1Block {
+  /* background-color: #8e8e55; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* step6: subColumn2 */
+.service1Box {
+  /* background-color: #508250; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* step7: contentContainer */
+.service1Box h2 {
+  /* background-color: #e56464; */
+  font-size: 3.6rem;
+  color: var(--secondaryColor);
+  margin-bottom: 3rem;
+  line-height: 1.2;
+}
+
+.abth2 {
+  color: var(--tertiaryColor);
+}
+
+.service1Box p {
+  /* background-color: #e56464; */
+  font-size: 1.6rem;
+  color: var(--primaryColor);
+  margin-bottom: 2rem;
+  text-wrap: wrap;
+  line-height: 1.7;
+}
+
+/* card */
+.serviceCardBody1{
+  /* background-color: #449479; */
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.serviceCardBody2{
+  /* background-color: #449479; */
+  margin-bottom: 2rem;
+}
+
+.serviceCardBlock{
+  /* background-color: #449479; */
+}
+
+.serviceCardBox{
+  /* background-color: #af5e3e; */
+  box-shadow: rgba(61, 90, 125, 0.06) 0px 35px 34px 0px;
+  padding: 2rem;
+  border: 1px solid #EEE9F1;
+  border-radius: 20px;
+  background: linear-gradient(to top, #ffffff, #E9E0ED);
+}
+
+.serviceCardHead{
+  /* background-color: #449479; */
+}
+
+.serviceCardHead img{
+  /* background-color: #449479; */
+  /* margin-bottom: 1rem; */
+}
+
+.serviceCardMain{
+  /* background-color: #449479; */
+  text-wrap: wrap;
+}
+
+.serviceCardMain p{
+  /* background-color: #449479; */
+  font-size: 1.4rem;
+  color: var(--gray2Color);
+}
+
+/* step5: column2 */
+.service1ImageBlock {
+  /* background-color: #8a2be2; */
+}
+
+/* step6: subColumn1 */
+.service1ImageBox {
+  /* background-color: #e1dc87;  */
+}
+
+/* step7: contentContainer */
+.service1ImageBox img {
+  /* background-color: #a55959; */
+  /* border-radius: 10px; */
+}
+
+/* service2 */
+
+/* step2: component */
+.service2Section {
+  background-color: #ffffff;
+}
+
+/* step3: componentContainer */
+.service2Container {
+  /* background-color: #3f3f81; */
+}
+
+/* step4: row */
+.service2Body {
+  /* background-color: #b384b3; */
+  padding: 2rem 2rem 2rem 4rem;
+  /* gap: 2.5rem; */
+}
+
+/* step5: column1 */
+.service1Block {
+  /* background-color: #8e8e55; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* step6: subColumn2 */
+.service1Box {
+  /* background-color: #508250; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* step7: contentContainer */
+.service1Box h2 {
+  /* background-color: #e56464; */
+  font-size: 3.6rem;
+  color: var(--secondaryColor);
+  margin-bottom: 3rem;
+  line-height: 1.2;
+}
+
+.abth2 {
+  color: var(--tertiaryColor);
+}
+
+.service1Box p {
+  /* background-color: #e56464; */
+  font-size: 1.6rem;
+  color: var(--primaryColor);
+  margin-bottom: 2rem;
+  text-wrap: wrap;
+  line-height: 1.7;
+}
+
+/* card */
+.serviceCardBody1{
+  /* background-color: #449479; */
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.serviceCardBody2{
+  /* background-color: #449479; */
+  margin-bottom: 2rem;
+}
+
+.serviceCardBlock{
+  /* background-color: #449479; */
+}
+
+.serviceCardBox{
+  /* background-color: #af5e3e; */
+  box-shadow: rgba(61, 90, 125, 0.06) 0px 35px 34px 0px;
+  padding: 2rem;
+  border: 1px solid #EEE9F1;
+  border-radius: 20px;
+  background: linear-gradient(to top, #ffffff, #E9E0ED);
+}
+
+.serviceCardHead{
+  /* background-color: #449479; */
+}
+
+.serviceCardHead img{
+  /* background-color: #449479; */
+  /* margin-bottom: 1rem; */
+}
+
+.serviceCardMain{
+  /* background-color: #449479; */
+  text-wrap: wrap;
+}
+
+.serviceCardMain p{
+  /* background-color: #449479; */
+  font-size: 1.4rem;
+  color: var(--gray2Color);
+}
+
+/* step5: column2 */
+.service1ImageBlock {
+  /* background-color: #8a2be2; */
+}
+
+/* step6: subColumn1 */
+.service1ImageBox {
+  /* background-color: #cac232;  */
+}
+
+/* step7: contentContainer */
+.service1ImageBox img {
+  /* background-color: #a55959; */
+  /* border-radius: 10px; */
+  align-items: center;
+}
+
+/* service-3 */
+
+/* step2: component */
+.service3Section {
+  background-color: #ffffff;
+}
+
+/* step3: componentContainer */
+.service3Container {
+  /* background-color: #3f3f81; */
+}
+
+/* step4: row */
+.service3Body {
+  /* background-color: #b384b3; */
+  padding: 2rem 6rem 2rem 2rem;
+  /* gap: 2.5rem; */
+}
+
+/* step5: column1 */
+.service1Block {
+  /* background-color: #8e8e55; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* step6: subColumn2 */
+.service1Box {
+  /* background-color: #508250; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* step7: contentContainer */
+.service1Box h2 {
+  /* background-color: #e56464; */
+  font-size: 3.6rem;
+  color: var(--secondaryColor);
+  margin-bottom: 3rem;
+  line-height: 1.2;
+}
+
+.abth2 {
+  color: var(--tertiaryColor);
+}
+
+.service1Box p {
+  /* background-color: #e56464; */
+  font-size: 1.6rem;
+  color: var(--primaryColor);
+  margin-bottom: 2rem;
+  text-wrap: wrap;
+  line-height: 1.7;
+  text-transform: capitalize;
+}
+
+/* card */
+.serviceCardBody1{
+  /* background-color: #449479; */
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.serviceCardBody2{
+  /* background-color: #449479; */
+  margin-bottom: 2rem;
+}
+
+.serviceCardBlock{
+  /* background-color: #449479; */
+}
+
+.serviceCardBox{
+  /* background-color: #af5e3e; */
+  box-shadow: rgba(61, 90, 125, 0.06) 0px 35px 34px 0px;
+  padding: 2rem;
+  border: 1px solid #EEE9F1;
+  border-radius: 20px;
+  background: linear-gradient(to top, #ffffff, #E9E0ED);
+}
+
+.serviceCardHead{
+  /* background-color: #449479; */
+}
+
+.serviceCardHead img{
+  /* background-color: #449479; */
+  /* margin-bottom: 1rem; */
+}
+
+.serviceCardMain{
+  /* background-color: #449479; */
+  text-wrap: wrap;
+}
+
+.serviceCardMain p{
+  /* background-color: #449479; */
+  font-size: 1.4rem;
+  color: var(--gray2Color);
+}
+
+/* step5: column2 */
+.service1ImageBlock {
+  /* background-color: #8a2be2; */
+}
+
+/* step6: subColumn1 */
+.service1ImageBox {
+  /* background-color: #e1dc87;  */
+}
+
+/* step7: contentContainer */
+.service1ImageBox img {
+  /* background-color: #a55959; */
+  /* border-radius: 10px; */
+}
+
+/* practise */
+
+/* step2: component */
+.practiseSection {
+  background-color: #ffffff;
+}
+
+/* step3: componentContainer */
+.practiseContainer {
+  /* background-color: #3f3f81; */
+}
+
+/* step4: row1 */
+.headingBody {
+  /* background-color: #b384b3; */
+}
+
+/* step5: column1 */
+.headingBlock {
+  /* background-color: #8e8e55; */
+}
+
+/* step6: subColumn2 */
+.headingBox {
+  /* background-color: #508250; */
+}
+
+/* step7: contentContainer */
+.headingBox h2 {
+  /* background-color: #e56464; */
+  font-size: 3.6rem;
+  color: var(--secondaryColor);
+  /* margin-bottom: 1rem; */
+  line-height: 1.5;
+}
+
+.abth2 {
+  color: var(--tertiaryColor);
+}
+
+.headingBox p {
+  /* background-color: #e56464; */
+  font-size: 1.6rem;
+  color: var(--primaryColor);
+  margin-bottom: 2rem;
+  text-wrap: wrap;
+  line-height: 1.7;
+  text-transform: capitalize;
+}
+
+/* step4: row2 */
+.practiseBody {
+  /* background-color: #b384b3; */
+  padding: 4rem;
+  gap: 2rem;
+}
+
+/* step5: column1 */
+.practiseBlock {
+  /* background-color: #8e8e55; */
+  border: 1px solid #eeeeee;
+  border-radius: 20px;
+  padding: 3rem;
+}
+
+/* step6: subColumn2 */
+.practiseBox {
+  /* background-color: #508250; */
+}
+
+/* card */
+.practiseCard {
+  /* background-color: #449479; */
+  
+}
+
+/* cardhead */
+.practiseCardHead {
+  /* background-color: #449479; */
+  border-radius: 50px;
+  height: 90px;
+  width: 90px;
+  background-color: #F0F5EA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+/* step7: contentContainer */
+.practiseCardHead img {
+  /* background-color: #449479; */
+  height: 6rem;
+}
+
+/* cardbody */
+.practiseCardMain {
+  /* background-color: #449479; */
+}
+
+.practiseCardMain h4 {
+  /* background-color: #449479; */
+  font-size: 1.8rem;
+  color: var(--secondaryColor);
+  margin-bottom: 1rem;
+}
+
+.practiseCardMain p{
+  /* background-color: #8a2be2; */
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--tertiaryColor);
+  text-align: start;
+}
+
+/* review */
+
+/* step2: component */
+.reviewSection {
+  background-color: #f9f9f9;
+}
+
+/* step3: componentContainer */
+.reviewContainer {
+  /* background-color: #3f3f81; */
+}
+
+/* step4: row1 */
+.headingBody {
+  /* background-color: #b384b3; */
+}
+
+/* step5: column1 */
+.headingBlock {
+  /* background-color: #8e8e55; */
+}
+
+/* step6: subColumn2 */
+.headingBox {
+  /* background-color: #508250; */
+}
+
+/* step7: contentContainer */
+.headingBox h2 {
+  /* background-color: #e56464; */
+  font-size: 3.6rem;
+  color: var(--secondaryColor);
+  line-height: 1.5;
+}
+
+.abth2 {
+  color: var(--tertiaryColor);
+}
+
+.headingBox h4 {
+  /* background-color: #e56464; */
+  font-size: 2rem;
+  color: var(--secondaryColor);
+  margin-bottom: 2rem;
+  /* text-wrap: wrap; */
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+/* step4: row2 */
+.reviewBody {
+  /* background-color: #b384b3; */
+  padding: 4rem;
+  gap: 2rem;
+}
+
+/* step5: column */
+.reviewBlock {
+  /* background-color: #8e8e55; */
+  /* border: 1px solid #eeeeee; */
+  border-radius: 20px;
+  padding: 4rem;
+  box-shadow:rgba(61, 90, 125, 0.08) 0px 15px 30px 0px;
+  background-color: var(--whiteColor);
+  height: fit-content;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.blk2{
+  margin-top: 4rem;
+}
+.blk3{
+  margin-top: 3rem;
+}
+
+/* step6: subColumn */
+.reviewBox {
+  /* background-color: #508250; */
+  /* position: relative; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+/* step7: contentContainer */
+.reviewBox i{
+  /* background-color: #449479; */
+  /* position: absolute;
+  left: 1.5rem;
+  top: 0.1rem; */
+  color: #E5F0F8;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+/* cardhead */
+.reviewBox p{
+  /* background-color: #449479; */
+  font-size: 1.6rem;
+  color: var(--gray2Color);
+  margin-bottom: 5rem;
+}
+
+
+.reviewBox h4 {
+  /* background-color: #449479; */
+  font-size: 1.6rem;
+  color: var(--secondaryColor);
+  /* margin-bottom: 2rem; */
+}
+
+/* footer */
+
+/* step2: component */
+.footerSection {
+  /* background-color: #825f5f; */
+}
+
+/* step3: componentContainer */
+.footerContainer {
+  /* background-color: #3f3f81; */
+}
+
+/* step4: row1 */
+.footerBody {
+  background-color: #4e4a4e;
+  padding: 6rem 9rem;
+  gap: 3rem;
+}
+
+/* step5: column1 */
+.footerBlock {
+  /* background-color: #8e8e55; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* step6: subColumn1 */
+.footerBox {
+  /* background-color: #508250; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+/* step7: contentContainer */
+.footerBox h4 {
+  /* background-color: #e56464; */
+  font-size: 1.8rem;
+  color: var(--whiteColor);
+  margin-bottom: 2rem;
+  /* line-height: 1.5; */
+}
+
+.footerBox p {
+  /* background-color: #e56464; */
+  font-size: 1.6rem;
+  color: var(--whiteColor);
+  margin-bottom: 2rem;
+  text-wrap: wrap;
+  line-height: 1.7;
+}
+
+.footerIcon {
+  /* background-color: #84b392; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.footerIcon li {
+  /* background-color: #b384b3; */
+  list-style: none;
+  margin-right: 1rem;
+  border: 2px solid #c5c7cb;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.footerIcon i {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  color: #c5c7cb;
+  font-size: 1.3rem;
+  padding: 0.8rem 1.2rem;
+  line-height: 1.5;
+}
+
+.footerIcon i:hover , li:hover{
+  /* background-color: #508250; */
+  color: var(--tertiaryColor);
+  transition: all 0.3s ease-in;
+}
+
+.footerIcon li:hover {
+  /* background-color: #508250; */
+  border: 2px solid #6a9b2f;
+  transition: all 0.3s ease-in;
+}
+
+/* step6: subColumn2 */
+.footerList {
+  /* background-color: #8e8e55; */
+  margin-left: 2.5rem;
+}
+
+/* step7: contentContainer */
+.footerList li {
+  /* background-color: #508250; */
+  /* line-height: dotted; */
+  color: var(--whiteColor);
+  margin-bottom: 1rem;
+}
+
+.footerList a:hover {
+  /* background-color: #508250; */
+  color: var(--gray1Color);
+}
+
+.footerList a {
+  /* background-color: #ae7b3c; */
+  font-size: 1.6rem;
+  color: var(--whiteColor);
+}
+
+.copyRightsBody {
+  background-color: #1f1f1f;
+  padding: 3rem;
+}
+
+.copyRightsBox p {
+  font-size: 1.4rem;
+  color: var(--whiteColor);
+}
