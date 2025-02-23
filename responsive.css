@@ -227,6 +227,11 @@
     padding: 6rem 2rem;
     gap: 3rem;
   }
+
+  .footerList {
+    /* background-color: #8e8e55; */
+    margin-left: 2rem;
+  }
   .copyRightsBody{
     padding: 2rem;
   }
