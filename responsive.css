@@ -15,6 +15,7 @@
   .topBody {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 1rem;
   }
 
   .navContactBlock {
@@ -36,6 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
 
   .navEmailBox{
@@ -137,7 +139,7 @@
 
   .serviceCardBody1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     padding: 0rem;
     align-items: center;
   }
@@ -196,13 +198,13 @@
 
   .serviceCardBody2 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     padding: 0rem;
   }
 
   .serviceCardBody3 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     padding: 0rem;
   }
 
@@ -225,6 +227,13 @@
     padding: 6rem 2rem;
     gap: 3rem;
   }
+  .copyRightsBody{
+    padding: 2rem;
+  }
+
+  .copyRightsBlock{
+    width: 100%;
+  }
 }
 
 /* Medium devices (tablets, upto 768px and above) */
@@ -240,6 +249,7 @@
   .topBody {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 0rem 1rem;
   }
 
   .navContactBlock {
@@ -247,6 +257,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
 
   .navContactBox{
@@ -261,6 +272,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
 
   .navEmailBox{
@@ -274,6 +286,9 @@
     display: grid;
     grid-template-columns: 1fr;
     padding: 0.7rem 8rem;
+  }
+  .topBody i{
+    /* background-color: blue; */
   }
 
   .logoBlock {

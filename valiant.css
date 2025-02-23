@@ -29,12 +29,14 @@
 /* step4: row */
 .topBody {
   background-color: var(--greenColor);
+  /* background-color: aqua; */
   padding: 0.75rem 10.8rem;
+  gap: 0.5rem;
 }
 
 /* step5: column 1 */
 .navContactBlock {
-  /* background-color: var(--primaryColor); */
+  /* background-color: var(--lightColor); */
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -62,7 +64,7 @@
 
 /* step5: column 1 */
 .navEmailBlock {
-  background-color: var(--primaryColor);
+  /* background-color: var(--primaryColor); */
   width: 100%;
   display: flex;
   align-items: center;
@@ -71,7 +73,7 @@
 
 /* step6: subColumn 1 */
 .navEmailBox {
-  background-color: #b8860b;
+  /* background-color: #b8860b; */
   width: 100%;
   display: flex;
   align-items: flex-end;
@@ -186,7 +188,7 @@
 
 /* step5: column */
 .heroBlock {
-  background-color: #ffe4c4;
+  /* background-color: #ffe4c4; */
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -1046,7 +1048,17 @@
   padding: 3rem;
 }
 
+.copyRightsBlock{
+  /* background-color: #689F38; */
+  width: 100%;
+}
+
+.copyRightsBox{
+  width: 100%;
+}
+
 .copyRightsBox p {
   font-size: 1.4rem;
   color: var(--whiteColor);
+  text-wrap: wrap;
 }
