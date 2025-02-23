@@ -15,8 +15,6 @@
   .topBody {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 0.75rem 10.8rem;
-    row-gap: 1rem;
   }
 
   .navContactBlock {
@@ -26,11 +24,25 @@
     justify-content: center;
   }
 
+  .navContactBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
   .navEmailBlock {
     /* background-color: var(--primaryColor); */
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .navEmailBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .navBody {
@@ -64,7 +76,7 @@
 
   .heroBody {
     /* background-color: #00ffff; */
-    padding: 13rem 2rem;
+    padding: 6rem 2rem 2rem 2rem;
   }
 
   .heroBlock {
@@ -72,6 +84,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 7rem;
   }
 
   .heroBox {
@@ -227,8 +240,6 @@
   .topBody {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 0.5rem 10.8rem;
-    row-gap: 1rem;
   }
 
   .navContactBlock {
@@ -238,11 +249,25 @@
     justify-content: center;
   }
 
+  .navContactBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
   .navEmailBlock {
     /* background-color: var(--primaryColor); */
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .navEmailBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .navBody {
@@ -381,6 +406,39 @@
   }
   .grid-2 {
     grid-template-columns: 1fr;
+  }
+
+  .topBody {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .navContactBlock {
+    /* background-color: var(--primaryColor); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navContactBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .navEmailBlock {
+    /* background-color: var(--primaryColor); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navEmailBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .navBody {

@@ -38,6 +38,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  width: 100%;
 }
 
 /* step6: subColumn 1 */
@@ -47,6 +48,7 @@
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
 }
 
 /* step7: contentContainer */
@@ -60,7 +62,8 @@
 
 /* step5: column 1 */
 .navEmailBlock {
-  /* background-color: var(--primaryColor); */
+  background-color: var(--primaryColor);
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -68,7 +71,8 @@
 
 /* step6: subColumn 1 */
 .navEmailBox {
-  /* background-color: #b8860b; */
+  background-color: #b8860b;
+  width: 100%;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -182,7 +186,7 @@
 
 /* step5: column */
 .heroBlock {
-  /* background-color: #ffe4c4; */
+  background-color: #ffe4c4;
   display: flex;
   align-items: center;
   justify-content: flex-start;
