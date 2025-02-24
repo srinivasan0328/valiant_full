@@ -24,6 +24,7 @@ body {
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
   font-optical-sizing: auto;
+  padding-top: 14.5rem;
 }
 
 /* Width of the scrollbar */
@@ -33,18 +34,18 @@ body {
 
 /* Track (background of the scrollbar) */
 ::-webkit-scrollbar-track {
-  background: #cccbcb; 
+  background: #424242; 
 }
 
 /* Scrollbar thumb (the moving part) */
 ::-webkit-scrollbar-thumb {
-  background: #888; 
-  border-radius: 0.5rem; 
+  background: #686868; 
+  /* border-radius: 0.5rem;  */
 }
 
 /* Scrollbar thumb on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #7b7b7b; 
 }
 
 h1,

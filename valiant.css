@@ -19,6 +19,12 @@
   /* background-color: #60a2a2; */
   padding-top: 0.1rem;
   box-shadow:rgba(25, 25, 25, 0.1) 0px 10px 15px 0px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: #ffffff;
 }
 
 /* step3: componentContainer */
@@ -941,7 +947,7 @@
 /* step4: row1 */
 .footerBody {
   background-color: #4e4a4e;
-  padding: 6rem 9rem;
+  padding: 4.1rem 9rem;
   gap: 3rem;
 }
 
@@ -1045,7 +1051,7 @@
 
 .copyRightsBody {
   background-color: #1f1f1f;
-  padding: 3rem;
+  padding: 2.2rem;
 }
 
 .copyRightsBlock{
