@@ -26,8 +26,25 @@ body {
   font-optical-sizing: auto;
 }
 
+/* Width of the scrollbar */
 ::-webkit-scrollbar {
-  width: 1rem;
+  width: 1.5rem;
+}
+
+/* Track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #cccbcb; 
+}
+
+/* Scrollbar thumb (the moving part) */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 0.5rem; 
+}
+
+/* Scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
 
 h1,

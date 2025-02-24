@@ -1062,3 +1062,17 @@
   color: var(--whiteColor);
   text-wrap: wrap;
 }
+
+.scrollUpBtn{
+  padding: 1rem 1.5rem;
+  background-color: #bfb9c3;
+  border: none;
+  border-radius: 5px;
+  box-shadow:#006a4e -4px 4px 24px -10px;
+  color: #1f1f1f;
+  font-size: 1.5rem;
+  font-weight: 600;
+  position: fixed;
+  bottom: 3rem;
+  right: 1rem;
+}
